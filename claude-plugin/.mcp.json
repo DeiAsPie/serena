@@ -3,7 +3,7 @@
     "serena": {
       "args": [
         "start-mcp-server",
-        "--context=claude-code",
+        "--context=${CLAUDE_PLUGIN_ROOT}/contexts/claude-code-multi.yml",
         "--project-from-cwd"
       ],
       "command": "serena",
