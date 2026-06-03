@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "author": {
+    "name": "Oraios AI",
+    "url": "https://github.com/oraios/serena"
+  },
+  "description": "Semantic code intelligence for Claude Code. Provides symbol-level navigation, editing, and refactoring tools via the Serena MCP server — with auto-wired hooks to keep the agent on track.",
+  "displayName": "Serena",
+  "homepage": "https://oraios.github.io/serena/",
+  "keywords": [
+    "serena",
+    "mcp",
+    "code-intelligence",
+    "refactoring",
+    "lsp",
+    "semantic-search"
+  ],
+  "license": "MIT",
+  "name": "serena",
+  "repository": "https://github.com/oraios/serena",
+  "version": "1.0.0"
+}
