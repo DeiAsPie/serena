@@ -1,0 +1,28 @@
+{
+  "description": "Serena MCP server plugin for Claude Code — semantic code intelligence, hooks, and auto-configuration.",
+  "name": "serena",
+  "owner": {
+    "email": "info@oraios.ai",
+    "name": "Oraios AI"
+  },
+  "plugins": [
+    {
+      "category": "productivity",
+      "description": "Semantic code intelligence for Claude Code. Auto-starts the Serena MCP server and wires all recommended hooks (activate, remind, auto-approve, cleanup) so the agent uses symbolic tools instead of grep/read_file.",
+      "displayName": "Serena",
+      "homepage": "https://oraios.github.io/serena/",
+      "keywords": [
+        "serena",
+        "mcp",
+        "code-intelligence",
+        "lsp",
+        "refactoring",
+        "symbolic-tools"
+      ],
+      "license": "MIT",
+      "name": "serena",
+      "repository": "https://github.com/oraios/serena",
+      "source": "./claude-plugin"
+    }
+  ]
+}
